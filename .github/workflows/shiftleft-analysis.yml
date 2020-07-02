@@ -31,5 +31,5 @@ jobs:
 
     - name: Upload report
       uses: blinkov/codeql-action/upload-sarif@main
-      with:
-        sarif_file: reports
+#       with:
+#         sarif_file: reports
