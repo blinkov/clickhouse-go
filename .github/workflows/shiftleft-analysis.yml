@@ -30,6 +30,6 @@ jobs:
         type: go,credscan,depscan
 
     - name: Upload report
-      uses: blinkov/codeql-action/upload-sarif@master
+      uses: blinkov/codeql-action/upload-sarif@main
       with:
         sarif_file: reports
